@@ -11,7 +11,7 @@
  * - la valeur choisir par l'ordinateur : Number
  */
 
-//1ere partie
+//1ere partie: la fonction pour qui permet d'executer le jeu qui a pour nom PlayTheGame
 
 function playTheGame() {
     // Demande à l'utilisateur s'il souhaite jouer au jeu
@@ -39,7 +39,7 @@ function playTheGame() {
     compareNumbers(userNumber, computerNumber); // appel de la fonction de la partie deux
 }
 
-//2ieme partie
+//2ieme partie: conception de la fonction pour la comparaison du nombre de l'utilisation et le nombre choisit par le computeur
 /**
  *
  * @param : la fonction permet de comparer les deux valeurs(userNumber, et le computerNumber)
